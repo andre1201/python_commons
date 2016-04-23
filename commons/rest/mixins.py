@@ -3,8 +3,9 @@ from __future__ import unicode_literals
 
 from django.core.exceptions import FieldError
 
-from python_commons.utils.decorators import json_logger
-from .exeptions import BadRequestError
+from commons.rest.exeptions import BadRequestError
+from commons.utils.decorators import json_logger
+
 
 
 
