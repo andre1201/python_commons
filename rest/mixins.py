@@ -31,6 +31,7 @@ class LoggerMixinView(object):
     """
     Выводит данные в консоль
     """
+
     @json_logger
     def post(self, request, *args, **kwargs):
         return super(LoggerMixinView, self).post(request, *args, **kwargs)
