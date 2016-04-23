@@ -3,8 +3,9 @@ from __future__ import unicode_literals
 
 from django.core.exceptions import FieldError
 
-from rest.exeptions import BadRequestError
-from utils.decorators import json_logger
+from python_commons.utils.decorators import json_logger
+from .exeptions import BadRequestError
+
 
 
 class FilterMixin(object):
